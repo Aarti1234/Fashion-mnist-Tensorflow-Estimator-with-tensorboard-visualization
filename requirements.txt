@@ -1,0 +1,8 @@
+os
+argparse
+shutil
+gzip
+six.moves
+numpy
+matplotlib
+tensorflow-gpu>=1.6
