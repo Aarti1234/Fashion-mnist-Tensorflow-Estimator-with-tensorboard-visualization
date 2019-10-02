@@ -1,5 +1,4 @@
-# Triplet loss in TensorFlow [![Build Status](https://travis-ci.org/omoindrot/tensorflow-triplet-loss.svg?branch=master)](https://travis-ci.org/omoindrot/tensorflow-triplet-loss)
-
+# Triplet loss in TensorFlow with three Strategies
 
 This repository contains a triplet loss implementation with TensorFlow Estimator with online triplet mining using three different methods i.e Hard, Semi Hard and All. This repository also contains code to generate sprite image of labels to visualize on tensorflow projector. Please check [`assets`](assets) for loss png and projector video.
 
@@ -50,8 +49,10 @@ tensorboard --logdir=./experiments/new_model/tf_projector
 - Tensorflow Estimators [`link`][link]
 - [Facenet paper][facenet] introducing online triplet mining
 - Detailed explanation of online triplet mining in [*In Defense of the Triplet Loss for Person Re-Identification*][in-defense]
+-[`Blog`][blog]
 
 [link]: https://github.com/guillaumegenthial/tf-estimator-basics
 [facenet]: https://arxiv.org/abs/1503.03832
 [in-defense]: https://arxiv.org/abs/1703.07737
 [tf-triplet-loss]: https://www.tensorflow.org/api_docs/python/tf/contrib/losses/metric_learning/triplet_semihard_loss
+[blog]: https://omoindrot.github.io/triplet-loss
