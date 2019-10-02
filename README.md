@@ -15,6 +15,7 @@ The interesting part, defining triplet loss with triplet mining can be found in 
 
 ## Training on FMNIST
 
+When you run training script, it will download fashion mnist data itself and will place in [`data/fmnist`](data/fmnist)
 To run a new experiment called `new_model`, do:
 ```bash
 python train.py --model_dir ./experiments/new_model
