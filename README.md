@@ -46,13 +46,12 @@ tensorboard --logdir=./experiments/new_model/tf_projector
 
 ## Resources
 
-- [Blog post][blog] explaining this project.
 - Source code for the built-in TensorFlow function for semi hard online mining triplet loss: [`tf.contrib.losses.metric_learning.triplet_semihard_loss`][tf-triplet-loss].
+- Tensorflow Estimators [`link`][link]
 - [Facenet paper][facenet] introducing online triplet mining
 - Detailed explanation of online triplet mining in [*In Defense of the Triplet Loss for Person Re-Identification*][in-defense]
 
-
-[blog]: https://omoindrot.github.io/triplet-loss
+[link]: https://github.com/guillaumegenthial/tf-estimator-basics
 [facenet]: https://arxiv.org/abs/1503.03832
 [in-defense]: https://arxiv.org/abs/1703.07737
 [tf-triplet-loss]: https://www.tensorflow.org/api_docs/python/tf/contrib/losses/metric_learning/triplet_semihard_loss
