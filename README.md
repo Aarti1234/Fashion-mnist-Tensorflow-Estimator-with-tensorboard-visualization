@@ -9,7 +9,7 @@ This repository contains a triplet loss implementation with TensorFlow Estimator
 
 Install `gpu` requirements:
 ```bash
-pip install -r requirements_gpu.txt
+pip install -r requirements.txt
 ```
 
 The interesting part, defining triplet loss with triplet mining can be found in [`model/triplet_loss.py`](model/triplet_loss.py).
@@ -32,7 +32,7 @@ All the weights and summaries will be saved in the `model_dir`.
 
 Once trained, you can visualize the embeddings by running:
 ```bash
-python visualize_embeddings.py --model_dir ./experiments/base_model
+python visualize_embeddings.py --model_dir ./experiments/new_model
 ```
 
 And run tensorboard in the experiment directory:
