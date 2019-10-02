@@ -50,7 +50,7 @@ tensorboard --logdir=./experiments/new_model/tf_projector
 - Tensorflow Estimators [`link`][link]
 - [Facenet paper][facenet] introducing online triplet mining
 - Detailed explanation of online triplet mining in [*In Defense of the Triplet Loss for Person Re-Identification*][in-defense]
-- [`Blog`][blog]
+- Some code structure is taken from this [`blog`][blog]
 
 [link]: https://github.com/guillaumegenthial/tf-estimator-basics
 [facenet]: https://arxiv.org/abs/1503.03832
